@@ -10,7 +10,7 @@ from django.contrib import messages
 from models import *
 
 # Create your views here.
-
+#creating login,logout and signup views 
 
 @csrf_protect
 def signup(request):
